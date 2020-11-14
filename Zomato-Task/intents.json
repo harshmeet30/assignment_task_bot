@@ -1,0 +1,128 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi"],
+         "responses": ["Hello Foodie, I'm RESTO bot "," thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": ["location"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye","bye","See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        
+
+        {"tag": "Location",
+         "patterns": [
+"show me best restaurants near me",
+"show me best restaurants near pune","show me best restaurants in pune","show me best restaurants near bengaluru","show me best restaurants near bengaluru","show me some restaurants near me","show me best hotels near me",
+"restaurants near me","hotels near me","list of hotels in pune","list of restaurants in sangli",
+"restaurant near my location",
+"show me hotels at my location",
+"list of restaurants at my location"
+],
+         "responses": ["loc scsful"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "searchCuisine",
+         "patterns": [
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food"
+    ,"i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "i am looking to eat Raw Meats",
+ "i am looking to eat Mangalorean dish",
+    "i would love to eat Kebab",
+    "i would love to eat Middle Eastern",
+  "i would like to eat italian",
+    "i am looking to eat some south indian food",
+    "I am looking for restaurants that serves Street Food",
+    "I am looking for restaurants that serves Healthy Food",
+    "biryani in sangli"
+  
+],
+         "responses": ["cuisine scsfl"],
+         "context": [""]
+        },
+        
+
+        
+        {"tag": "show_more",
+         "patterns": ["show"],
+         "responses": ["your food will be ordered"],
+         "context": [""]
+        }
+        
+   ]
+}
+
+
+
