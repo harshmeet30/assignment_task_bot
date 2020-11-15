@@ -150,8 +150,6 @@ def get_bot_response():
 				return(f"{bot_name}: {random.choice(intent['responses'])}")
 			if tag =='noanswer':
 				return(f"{bot_name}: {random.choice(intent['responses'])}")
-			if tag =='options':
-				return(f"{bot_name}: {random.choice(intent['responses'])}")
 			return (f"{bot_name}: I do not understand...")			
 	else:
 		return(f"{bot_name}: I do not understand...")
